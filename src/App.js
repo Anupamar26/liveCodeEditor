@@ -3,9 +3,9 @@ import Editor from "./Editor";
 
 export default function App() {
   const [html, setHtml] = useState(`<center>
-  <img src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80" />
-  <h1>I am Kitty</h1>
-  <h2>Hello</h2>
+  <img src="https://images.pexels.com/photos/5086489/pexels-photo-5086489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+  <h1>This Is Car</h1>
+  <h2>Hello Car</h2>
 </center>`);
 
   const [css, setCss] = useState(`h1 {
@@ -39,7 +39,7 @@ img {
     <>
       <main>
         <h1 className="center">Code Editor</h1>
-        <h2 className="center">You can write and preview HTML and CSS!</h2>
+        <h2 className="center">You can <b><big>write </big></b>and preview HTML and CSS!</h2>
         <section className="flex">
           <div className="flex-40">
             <Editor
